@@ -1,0 +1,19 @@
+Ativar e desativar VENV
+    .\venv\Scripts\Activate
+    deactivate
+
+Django
+    django-admin startproject setup . (o . vai fazer com que não crie subpastas)
+
+
+Boas praticas
+    pip freeze - vai pegar tudo que é preciso instalar no meu projeto atual
+    pip freeze > requirements.txt - vai criar um TXT com todos os modulos necessarios instalar
+
+Curiosidades
+    SECRET_kEY - nunca deve ser enviada para a produção
+    https://www.toptal.com/developers/gitignore/ (Ajuda a criar o meu gitignore)
+
+GIT e GITHUB
+    python-dotenv (instalador para armazezar as variaveis de ambiente como é o caso de SECRET_kEY)
+    .env (arquivos de armazenamento de variaveis de ambiente que não devem ser enviadas ao github)
