@@ -5,4 +5,4 @@ from django.http import HttpResponse
 # Arquivo responsavel por exibir informações na tela
 
 def index(request):
-    return HttpResponse("Hello World")
+    return render(request, 'index.html')
