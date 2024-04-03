@@ -5,6 +5,7 @@ Ativar e desativar VENV
 Django
     django-admin startproject setup . (o . vai fazer com que não crie subpastas)
     python manage.py runserver - iniciar serviço
+    python manage.py startapp  - diz respeito a um pedaço da aplicação com funcionalidades específicas
 
 
 Boas praticas
