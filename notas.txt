@@ -4,6 +4,7 @@ Ativar e desativar VENV
 
 Django
     django-admin startproject setup . (o . vai fazer com que não crie subpastas)
+    python manage.py runserver - iniciar serviço
 
 
 Boas praticas
@@ -12,8 +13,9 @@ Boas praticas
 
 Curiosidades
     SECRET_kEY - nunca deve ser enviada para a produção
-    https://www.toptal.com/developers/gitignore/ (Ajuda a criar o meu gitignore)
+
 
 GIT e GITHUB
     python-dotenv (instalador para armazezar as variaveis de ambiente como é o caso de SECRET_kEY)
     .env (arquivos de armazenamento de variaveis de ambiente que não devem ser enviadas ao github)
+    https://www.toptal.com/developers/gitignore/ (Ajuda a criar o meu gitignore)
