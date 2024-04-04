@@ -14,9 +14,11 @@
 </head>
 
 <body>
+    {% include 'galeria/partials/_menuLateral.html' %}
 
-  {% block content %}
-  {% endblock %}
+    {% block content %} {% endblock %}
+
+    {% include 'galeria/partials/_footer.html' %}
 
 </body>
 </html>
